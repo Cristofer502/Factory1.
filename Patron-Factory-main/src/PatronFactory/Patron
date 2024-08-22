@@ -1,0 +1,14 @@
+Factory Method
+¿Qué es?
+El patrón Factory Method es como tener un cocinero que sabe cómo preparar un plato, pero deja que sus asistentes decidan qué ingredientes específicos usar. En lugar de que el cocinero tenga que preocuparse por todos los detalles de cada ingrediente, simplemente dice: "Prepara el plato, y tú decides qué ingredientes utilizar".
+Ventajas:
+Desacoplamiento: Separa la manera en que se crean los objetos de cómo se utilizan. Esto significa que si decides cambiar un ingrediente, no necesitas modificar toda la receta.
+Flexibilidad: Si deseas agregar un nuevo tipo de plato, simplemente creas una nueva receta sin tener que alterar el código existente.
+Simplicidad: La lógica para crear los objetos está concentrada en un solo lugar, lo que facilita su comprensión y mantenimiento.
+Abstract Factory
+¿Qué es?
+El patrón Abstract Factory se asemeja a un restaurante que ofrece diferentes menús. Cada menú incluye varios platos que están relacionados entre sí. En lugar de especificar cómo hacer cada plato, el restaurante proporciona una forma de pedir un menú completo. Así, puedes elegir un menú de comida italiana o un menú de comida china, y el restaurante se encarga de ofrecerte todos los platos de ese menú.
+Ventajas:
+Compatibilidad: Garantiza que todos los platos que pidas en un menú sean coherentes entre sí, ya que todos pertenecen a la misma categoría.
+Facilidad de uso: Puedes trabajar con diferentes tipos de menús sin necesidad de saber cómo se preparan cada uno de los platos.
+Intercambiabilidad: Si decides cambiar el menú, puedes hacerlo sin necesidad de alterar la forma en que pides los platos. Simplemente cambias el menú y todos los platos se ajustan automáticamente.
